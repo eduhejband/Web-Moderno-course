@@ -6,7 +6,18 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        /*p ~ ol*/
+        /*[feira~=escritorio]*/
+        /*[feira*=asa]*/
+        /*span:nth-child(1)*/
+        /*section > :nth-child(odd) filhos Ímpares, pares trocaria-se odd por even*/
+        /*section > :nth-child(odd), ul, p*/
+        /*section > :nth-child(odd) label*/
+        /*section > :nth-of-type(2)/*começa a partir do 1*/
+        *{
+            color:yellow;
+            background-color: red;
+        }
     </style>
 </head>
 
@@ -29,7 +40,7 @@
             </ol>
             <div id='aninhado' class='tag'>
                 <div class="tag">
-                    <section class='tag'>
+                    <section class='tag nolabel'>
                         <span class='tag'>1</span>
                         <p class='tag'>2</p>
                         <span class='tag'>3</span>
